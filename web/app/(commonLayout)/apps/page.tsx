@@ -14,7 +14,7 @@ const AppList = async () => {
         <h3 className='text-xl font-semibold leading-tight text-gradient'>{t('join')}</h3>
         <p className='mt-1 text-sm font-normal leading-tight text-gray-700'>{t('communityIntro')}</p>
         <div className='flex items-center gap-2 mt-3'>
-         
+        </div>
       </footer>
     </div >
   )
