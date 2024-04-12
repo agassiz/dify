@@ -36,7 +36,7 @@ Google作为一个第三方工具，使用了SerpApi提供的API，而SerpApi需
 配置好凭据字段后效果如下：
 ```yaml
 identity:
-  author: Dify
+  author: AIs
   name: google
   label:
     en_US: Google
@@ -124,7 +124,7 @@ parameters: # 参数列表
         - 在`llm`模式下，如果参数为必填，则会要求Agent必须要推理出这个参数
         - 在`form`模式下，如果参数为必填，则会要求用户在对话开始前在前端填写这个参数
     - `options` 参数选项
-        - 在`llm`模式下，Dify会将所有选项传递给LLM，LLM可以根据这些选项进行推理
+        - 在`llm`模式下，AIs会将所有选项传递给LLM，LLM可以根据这些选项进行推理
         - 在`form`模式下，`type`为`select`时，前端会展示这些选项
     - `default` 默认值
     - `label` 参数标签，用于前端展示

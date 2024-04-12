@@ -2,7 +2,7 @@
 DOCKER_REGISTRY=agassiz
 WEB_IMAGE=$(DOCKER_REGISTRY)/dify-web
 API_IMAGE=$(DOCKER_REGISTRY)/dify-api
-VERSION=0.6.2
+VERSION=0.6.3
 
 # Build Docker images
 build-web:

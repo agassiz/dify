@@ -19,7 +19,7 @@ const translation = {
   invitationCodePlaceholder: '输入邀请码',
   interfaceLanguage: '界面语言',
   timezone: '时区',
-  go: '跳转至 Dify',
+  go: '跳转至 AIs',
   sendUsMail: '发封邮件介绍你自己，我们会尽快处理。',
   acceptPP: '我已阅读并接受隐私政策',
   reset: '请运行以下命令重置密码',
